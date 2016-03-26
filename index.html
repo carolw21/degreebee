@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="images/beepic-web.png">
 
-    <title>Carol Wang :)</title>
-
+    <title>degreebee</title>
     <!-- This is our Google Arvo font and fontawesome fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
@@ -29,9 +28,10 @@
     <![endif]-->
     
     <script src="jquery.min.js"></script>
+    <script src="js/custom.js"></script>
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="owl-carousel/owl.carousel.js"></script>
-    
+    <script src="js/custom.js"></script>
   </head>
 
   <body>
@@ -43,15 +43,13 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/customicon.png" alt="CW" title="Home"></a>
+          <a class="navbar-brand" href="#"><img src="images/beeappicon-web.png" alt="bee" title="Home"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#who">About Me</a></li>
-            <li><a href="#games">Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#who">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,59 +58,58 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Carol Wang</h1>
-        <p>A Coder, Hacker, Developer, Violin Player (and general music enthusiast), Bibliophile, Speecher/Debater, <strong>Really</strong> Weird Person</p>
-        <table class="center">
-	        <thead>
-	            <th colspan="2" font-size="23">Favorite Things</th>
-	        </thead>
-	        <tbody>
-    	        <tr>
-    	            <td><img src="http://www.thechinavoice.com/wp-content/uploads/2013/09/TCV386_0912_-2.jpg" alt="Adorable Panda" title="Panda, my favorite animal"></td>
-    	            <td><img src="http://badiarovviolins.com/wordpress/wp-content/uploads/2013/12/Violin-no.89-3d.jpg" alt="Beautiful Violin" title="Violin, a long-time passion and hobby"></td>
-    	        </tr>
-    	        <tr>
-    	            <td><img src="http://i.pinger.pl/pgr258/faee36b3001358e75317347e/panini.jpg" alt="Appetizing Eggplant Panini" title="Eggplant Panini, one of my favorite foods"></td>
-    	            <td><img src="https://s-media-cache-ak0.pinimg.com/236x/1a/df/c1/1adfc114f67dad2a8e3bbcf59cf8edbf.jpg" alt="Amazingly cute sushi" title="Super cute sushi"></td>
-    	        </tr>
-	        </tbody>
-	      </table>
+        <h1>degreebee</h1>
+        <p>A user-friendly app that facilitates the search for majors, colleges, jobs, and references.</p>
+        <h2 id="sign" style="margin-top:140px;font-family:Quicksand">Coming soon in Android and iOS!</h2>
+        <img id="bee" src="images/beepic-web.png" style="width:60px;height:60px" />
       </div>
     </div>
 
     <div id="who">
       <div class="container homepage">
-        <h2>About Me (not to sound too egotistical)</h2>
+        <h2>What is degreebee?</h2>
         <hr>
-        <p>I am a high school student at Monta Vista interested in many random things, including programming and computer science. I am the president of the Computer Science Club at our school and an officer of the Technovation club. I have also taught Java and Scratch and am currently an online tutor.</p>
-		       <h3><strong>Programming Languages I've Worked With</strong></h3>
-		       <div class="owl-carousel" id="owl-carousel1">-->
+        <p>Degreebee helps students explore various majors, allowing them to find jobs related to a major, discover colleges that offer the major, and connect with those who have experience or expertise in that major.</p>
+		       <div class="owl-carousel" id="owl-carousel1">
     	    	 <div class="circle">
-    	    		  <h3>Java</h3>
-    	    		  <p>I have done lots of game programming, algorithms and data structures, and a little bit of networking. I've been programming with this for the longest and it is my main language. I also passed USACO Bronze and Silver using Java and am currently in Gold trying to get promoted to Platinum.</p>
+    	    		  <h3>Main Screen</h3>
+    	    		  <p>This first screen shows general categories that users can click to discover majors under their category of interest.</p>
+    	          <img src="images/mainscreen.png" alt="List of Categories">
     	     	</div>
     	      <div class="circle">
-    	        	<h3>HTML/CSS &<br/>Javascript</h3>
-    	        	<p>I have created quite a few other websites excluding this one and I actively use Github. I have made games in Javascript and I'm currently learning PHP as well. I wish to keep improving this website. :)</p>
+    	        	<h3>List of Majors</h3>
+    	        	<p>This list includes all majors under the category clicked by the user.</p>
+    	          <img src="images/majors.png" alt="List of Majors">
+    	       </div>
+    	     	<div class="circle">
+    	    		  <h3>Search Function</h3>
+    	    		  <p>The search function allows users who already have an idea of a major to directly find their major of interest.</p>
+    	     	    <img src="images/search.png" alt="Search Function">
+    	     	</div>
+    	      <div class="circle">
+    	        	<h3>Major Information</h3>
+    	        	<p>This page offers detailed information about the major. There are short lists of the jobs related to the major, colleges that offer the major, and references who have experience with the major. As the user scrolls up, the toolbar collapses. Users can also share/save the major if they are interested in it.</p>
+    	          <div class="images" style="margin-left:auto;margin-right:auto">
+    	            <img src="images/expandedmajor.png" alt="Major Information">
+    	            <img src="images/collapsedmajor.png" alt="Major Information">
+    	          </div>
     	      </div>
     	      <div class="circle">
-    	        	<h3>Swift and Android</h3>
-    	        	<p>In the summer of 2015, I attended the GirlsWhoCode Summer Immersion Program at VMWare, where I learned Swift. I was the main programmer for the iOS app we built. There is a link to the Github for that project below. I made few simple games and other apps in Android. Currently, I am working on more sophisticated, useful applications to publish on the app store. I also have experience with Unity.</p>
+    	        	<h3>List of Colleges</h3>
+    	        	<p>This is an example of the expanded list of colleges when the user clicks "Show All." The jobs and references lists follow a similar format.</p>
+    	          <img src="images/collegelist.png" alt="List of Colleges">
     	      </div>
     	      <div class="circle">
-    	        	<h3>Matlab/Octave</h3>
-    	        	<p>I took an online Machine Learning Course taught by Professor Ng at Stanford University. The projects were completed in Matlab and Octave. Now, I am working on other machine learning algorithms, such as handwriting recognition to use in my apps.</p>
-    	      </div>
-    	      <div class="circle">
-    	        	<h3>C++</h3>
-    	        	<p>I have learned the basics and fundamentals of C++. I have made simple projects and learned about how to implement algorithms and data structures in C++.</p>
+    	        	<h3>Add Reference</h3>
+    	        	<p>References can be added dynamically to the database, and one only has to enter his/her name and email.</p>
+    	        	<img src="images/addreference.png" alt="Add Reference">
     	      </div>
   	      </div>
     
           <script type="text/javascript">
             jQuery(document).ready(function($) {
                $("#owl-carousel1").owlCarousel({
-                  autoPlay: 5000,
+                  autoPlay: 6000,
                   navigation : true,
                   singleItem: true,
                   loop: true
@@ -122,69 +119,6 @@
     
       </div>
     </div>
-
-    <div id="games">
-      <div class="container homepage">
-        <!-- Example row of columns -->
-        <h2>My Projects</h2>
-        <hr>
-          <div class="owl-carousel" id="owl-carousel3">
-          <div class="col">
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-camera-retro fa-stack-1x"></i>
-              </span>
-              <h3>Pic-to-Word</h3>
-              <p>This is a convenience iOS app coded in Swift that I am currently working on to publish in the App Store. It allows users to take or upload pictures of text and have them converted to digital text. The digital text can then be altered and sent by email, posted on Facebook, or uploaded to a document in Google Drive. It uses a handwriting recognition algorithm that is a work in progress.</p>
-           </div>
-           <div class="col">
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-money fa-stack-1x"></i>
-              </span>
-              <h3>Pocket Check</h3>
-              <p>This is a financial tracking/budgeting app coded in Swift at VMWare for the Girls Who Code Summer Program. The idea is original in that we have incorporated OCR into the process, allowing users to take a picture of a receipt to be processed. It is still a work in progress though. The source code is linked below.</p>
-              <button class="btn btn-default"><a style="color: black"href="https://github.com/HipHipArr/PocketCheck" target="_blank">Click to see the Github page of the app. &raquo;</a></button>
-           </div>
-            <div class="col">
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-music fa-stack-1x"></i>
-              </span>
-              <h3>Learn Music Theory</h3>
-              <p>This game is meant to be educational and fun and is made using Java. I spent quite a long time making it and improving it, so enjoy! Just click and keep the downloaded application. Unfortunately, this might not be able to run on certain computers and browsers so I apologize for that.</p>
-              <p><button class="btn btn-default" type="submit" onclick="window.open('MusicTheoryGame.jar')">Click to download the .jar file to play &raquo;</button></p>
-            </div>
-            <div class="col">
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-gamepad fa-stack-1x"></i>
-              </span>
-              <h3>Find Your Way</h3>
-              <p>This game is one I made with a friend, Mohini Banerjee, at a high school hackathon using Java. It is quite simple, but still challenging. Click and keep the downloaded application to play. Sadly, this requires specific browsers, so sorry if it doesn't work.</p>
-              <p><button class="btn btn-default" type="submit" onclick="window.open('FindYourWay.jar')">Click to download the .jar file to play &raquo;</button></p>
-           </div>
-           <div class="col">
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-times-circle fa-stack-1x"></i>
-              </span>
-              <h3>Feed Your Brain</h3>
-              <p>This is a simple math game I made involving multiplication using Javascript. I created it with the intention of using it myself and making my brother play it to practice mental math. It is on the website I linked below.</p>
-              <button class="btn btn-default"><a style="color: black"href="https://feedyourbrain.paperplane.io" target="_blank">Click to be redirected to my website for the game. &raquo;</a></button>
-           </div>
-           <script type="text/javascript">
-              jQuery(document).ready(function($) {
-                 $("#owl-carousel3").owlCarousel({
-                    autoPlay: 5000,
-                    navigation: true,
-                    singleItem: true,
-                    loop: true
-                });
-              });
-            </script>
-        </div>
-      </div>
 
       <div id="contact">
         <div class="container homepage">

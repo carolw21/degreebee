@@ -1,0 +1,351 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px; 
+}
+
+ul.nav, .jumbotron h1, p{
+	font-family: 'Quicksand', courier, serif;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	font-size: 15px;
+	color: #fffd89;
+}
+
+.navbar-brand
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img
+{
+    max-height: 100%;
+    
+}
+
+.navbar-brand:hover {
+	opacity:1.0;
+	box-shadow:none;	
+}
+
+.jumbotron{
+	text-align: center;
+	background-color: #fffd89;
+	color: black;
+	height: 100vh;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+
+.jumbotron p{
+	margin-bottom: 42px;
+	padding: 0 40px;
+}
+
+.jumbotron img {
+	width: 200px;
+	height: 190px;
+	padding: 5px;
+}
+
+.btn-lg{
+	font-size:36px;
+}
+
+.homepage{
+	text-align: center;
+	color: #fffd89;
+}
+
+.homepage h2, .homepage h3, .homepage h4{
+	text-transform: uppercase;
+	font-family: 'Quicksand', courier, serif;
+}
+
+.homepage h2{
+	padding-top: 30px;
+	font-size: 33px;
+}
+
+.homepage h3{
+	word-wrap: break-word;
+	font-size: 26px;
+	margin-top: 30px;
+	margin-bottom: 8px;
+}
+
+.homepage p{
+	word-wrap: break-word;
+	font-weight: 300;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+
+.homepage hr{
+    border-top: 1px solid yellow;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.circle{
+	margin: 10px 5px;
+	width: 75%;
+    height: 30%;
+    display: inline-block;
+}
+
+.divider{
+    width: 1px;
+    height: auto;
+    display: inline-block;
+}
+
+.circle img {
+    width:32%;
+    height:43%
+}
+
+.circle #images{
+    text-align:center;
+}
+
+.circle h3{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.circle p{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.owl-carousel{
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.fa-inverse{
+	color: black;
+}
+
+.col{
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#who{
+	background-color: #AB82FF;
+}
+
+#contact .homepage hr{
+	width: 120px;
+	padding-bottom: 10px;
+	border-top: 1px solid black;
+}
+
+#contact{
+	background-color: #fffd89;
+}
+
+.images{
+	text-align:center;
+}
+
+.images img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact a{
+	font-size: 30px;
+	color: #000000;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #fffd89;
+	opacity: .6;
+}
+
+#contact h2{
+	color: #000000;
+}
+
+#contact hr{
+	color: #000000;
+}
+
+#contact p{
+	color: #000000;
+}
+
+#contact img{
+	width: 30px;
+	height: 30px;
+	padding-right: 6px;
+}
+
+#contact a p{
+	display: inline;
+}
+
+#contact h3{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	color: #000000;
+}
+
+#contact .btn{
+	background-color: #AB82FF;
+	margin-bottom: 50px;
+}
+
+#contact p{
+	padding: 10px 30px 20px 16px;
+}
+
+footer{
+	background-color: rgba(100,0,255,.90);
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+	.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+	
+	#contact h3{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+}
+
+@media (max-width: 991px) {
+	.jumbotron h1{
+		font-size: 48px;
+	}
+
+	.jumbotron p{
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	#who p{
+		font-size: 16px;
+	}
+
+	#who h3{
+		margin-bottom: 13px;
+	}
+
+	#contact p{
+		padding-left: 2;
+	}
+
+	.jumbotron img{
+		width: 170px;
+		height: 155px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1{
+		font-size: 40px;
+	}
+
+	.jumbotron p{
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg{
+		font-size: 18px;
+	}
+
+	.homepage p{
+		font-size: 18px;
+	}
+	
+	footer img{
+		width: 90%;
+	}
+	
+	#who h2{
+		font-size: 26px;
+	}
+
+	#who p{
+		font-size: 16px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.jumbotron img{
+		width: 160px;
+		height: 145px;
+	}
+	
+	#who h3{
+		margin-top: 20px;
+	}
+
+	#contact p{
+		padding-left: 0px;
+	}
+	
+	#contact h3{
+		font-size: 24px;
+		padding-right: 30px;
+		padding-left: 30px;
+		padding-bottom: 20px;
+	}
+	
+}
+
+@media (max-height: 630px) {
+	.jumbotron img{
+		width: 150px;
+		height: 135px;
+	}
+	
+	#who p{
+		font-size: 16px;
+		padding-left: 23px;
+		padding-right: 23px;
+	}
+	
+	.jumbotron p{
+		padding-left: 33px;
+		padding-right: 33px;
+	}
+	
+	#games btn{
+		width: 166px;
+	}
+}
+
+@media (max-width: 350px) {
+	.jumbotron p{
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+}
