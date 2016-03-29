@@ -109,6 +109,7 @@ ul.nav, .jumbotron h1, p{
 .circle img {
     width:32%;
     height:43%
+    margin-top: 6px;
 }
 
 .circle #images{
