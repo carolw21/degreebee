@@ -16,5 +16,5 @@ function animateCircle(speed, radius, startx, starty, phi) {
 };
 
 $(document).ready(function() {
-    animateCircle(200, 150, -24, -85);
+    animateCircle(200, 165, -24, -100);
 });
